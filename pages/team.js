@@ -12,7 +12,10 @@ const Team = () => {
         <meta name="team" content="Meet the Team" />
         <link rel="icon" href="/icon.png"  />
       </Head>
-      </div>
+      <p className={styles.description}> 
+      Some information on who we are and what we do coming soon!
+              </p>
+      {/* </div>
         <p className={styles.description}>
         Meet our Team! 
         </p>
@@ -33,8 +36,8 @@ const Team = () => {
           >
             <h2>Stuart Wayland &rarr;</h2>
             <p> Intern </p>
-          </a>
-        </div>
+    </a> */}
+        </div> 
       </main>
       </div>
     );

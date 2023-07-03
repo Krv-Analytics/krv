@@ -18,7 +18,7 @@ export default function Home() {
       <Krv scale={1.5}/>
       </div>
         <p className={styles.description}>
-        Topoligical Data Analysis and Graph Learning
+        We are currently in the process of setting up our website. Stay tuned!
         </p>
       </main>
 

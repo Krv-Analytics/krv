@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 
 const About = () => {
     return (
@@ -9,9 +10,9 @@ const About = () => {
         <link rel="icon" href="/icon.png"  />
       </Head>
       <div >
-        <p textAlign='center'>
-          Coming soon some information about our team!
-          </p>
+      <p className={styles.description}> 
+      Some information on who we are and what we do coming soon!
+              </p>
       </div>
       </main>
     );
