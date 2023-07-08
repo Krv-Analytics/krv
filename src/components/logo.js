@@ -7,8 +7,8 @@ const Krv = ({scale}) => (
     <svg height="200" width="500" transform={`scale(${scale})`}>
     <defs>
     </defs>
-    <path d="M0,110 C60,110 73,50 120,40 " stroke="orange" fill="transparent" strokeWidth="4.2" stroke-linecap="round" />
-    <path d="M0,110 C60,80 20,50 120,40 " stroke="orange" fill="transparent" strokeWidth="2.7" stroke-linecap="round" />
+    <path d="M5,110 C60,110 72,50 120,40 " stroke="orange" fill="transparent" strokeWidth="4.3" stroke-linecap="round" />
+    <path d="M5,110 C60,80 20,50 120,40 " stroke="orange" fill="transparent" strokeWidth="2.7" stroke-linecap="round" />
     <text fill="orange" font-size="50" font-family="Verdana" x="50" y="100">K</text>
     </svg>
     </div>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/pages.module.css'
 
 const About = () => {
     return (
@@ -9,7 +9,10 @@ const About = () => {
         <meta name="about" content="About page" />
         <link rel="icon" href="/icon.png"  />
       </Head>
-      <div >
+      <div className={styles.writing_heading}>
+        <h1>
+          About
+        </h1>
       <p className={styles.description}> 
       Some information on who we are and what we do coming soon!
               </p>
