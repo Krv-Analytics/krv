@@ -1,2 +1,7 @@
+
+# Build time logging
 .next/
+
+
+# Dependencies
 node_modules/
