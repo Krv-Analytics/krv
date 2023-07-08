@@ -25,10 +25,6 @@ a {
   }
 }
 
-.nav_container {
-  display: flex;
-  justify-content: space-between;
-}
 
 .card {
   background-color: #f2f2f2;
@@ -38,21 +34,9 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.left_button {
-  margin-right: auto;
-}
-
-.right_buttons {
-  display: flex;
-  align-items: right;
-  margin-top: 50px; 
-  margin-right: 60px;
-  margin-left: 10px;
-  font-size: 40px;
-}
-
-
-.navigation_link + .navigation_link {
-  margin-left: 10px; /* Adjust the margin-left value to control the spacing between buttons */
-}
+/* .horizontal_line {
+  margin: -30px -70px -80px;
+  border: 0;
+  border-top: 1px solid #c9c7c7;
+} */
 

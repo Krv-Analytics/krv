@@ -13,7 +13,7 @@ const Team = () => {
         <link rel="icon" href="/icon.png"  />
       </Head>
       <p className={styles.description}> 
-      Some information on who we are and what we do coming soon!
+     Contact info coming soon!
               </p>
       {/* </div>
         <p className={styles.description}>

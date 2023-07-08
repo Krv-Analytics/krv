@@ -3,10 +3,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Krv from '../src/components/krv'
 
-
-
 export default function Home() {
   return (
+ 
     <div className={styles.container}>
       <Head>
         <title>Krv</title>
@@ -14,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/icon.png"  />
       </Head>
       <main className={styles.main}>
-      <div style={{alignItems: 'center' }}>
+      <div className={styles.centeredContainer}>
       <Krv scale={1.5}/>
       </div>
         <p className={styles.description}>
