@@ -4,7 +4,7 @@ import React from 'react';
 const Krv = ({scale}) => (
     <>
       <div>
-    <svg height="200" width="500" transform={`scale(${scale})`}>
+    <svg class="h-30 w-30" transform={`scale(${scale})`}>
     <defs>
     </defs>
     <path d="M5,110 C60,110 72,50 120,40 " stroke="orange" fill="transparent" strokeWidth="4.3" stroke-linecap="round" />

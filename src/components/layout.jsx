@@ -1,13 +1,11 @@
 import Navbar from "./NavBar";
-import styles from '../../styles/layout.module.css';
 
 
 export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <hr className={styles.horizontalLine}/>
-      <div className={styles.container}>
+      <div className="content-center">
       {children}
       </div>
     </>
