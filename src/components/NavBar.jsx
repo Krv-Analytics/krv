@@ -2,38 +2,44 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Logo from './logo'
  
-const navigationRoutes = ["home", "about", "team"];
+const navigationRoutes = ["home", "about", "contact"];
  
 export default function Navbar() {
+  // set router for client-navigation 
   const router = useRouter();
+  const isActive = router.asPath === ("/home")
   return (
-    <nav className="nav_container">
-    <NavigationLink
-      key={navigationRoutes[0]}
-      href={`/${navigationRoutes[0]}`}
-      text={<Logo scale={0.5}/>}
-      router={router}
-      className="left_button"
-    />
-    <div className="right_buttons">
-      {navigationRoutes.slice(1).map((singleRoute) => (
-        <NavigationLink
-          key={singleRoute}
-          href={`/${singleRoute}`}
-          text={singleRoute}
-          router={router}
-          className="navigation_link"
-        />
-      ))}
+
+  <nav className="bg-[#2d2d2e00] h-10 shadow-lg">
+  <div className="max-w-screen-xl flex items-center mx-auto h-10 justify-start">
+    <div>
+      <Link href="/">
+        <Logo />
+      </Link>
     </div>
-  </nav>
+    <div className="flex justify-start flex-grow">
+      <div className="ml-0">
+        <NavigationLink key="about" href="/about" text="About" router={router} />
+      </div>
+      <div className="ml-8">
+        <NavigationLink key="projects" href="/projects" text="Projects" router={router} />
+      </div>
+    </div>
+    <div>
+      <NavigationLink key="team" href="/team" text="Meet the Team" router={router} />
+    </div>
+  </div>
+</nav>
+
+
   );
 }
 
+// function to facilitate navigation between pages 
 function NavigationLink({ href, text, router }) {
     const isActive = router.asPath === (href === "/home" ? "/" : href);
     return (
-      <Link href={href === "/home" ? "/" : href} passHref>
+      <Link className="text-lg text-black" href={href === "/home" ? "/" : href} passHref>
           {text}
       </Link>
     );

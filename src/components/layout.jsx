@@ -1,11 +1,13 @@
 import Navbar from "./NavBar";
+
+
 export default function Layout({ children }) {
   return (
     <>
       <Navbar />
+      <div className="content-center">
       {children}
-      {/* Footer */}
-      {/* You can add more things here  */}
+      </div>
     </>
   );
 }
