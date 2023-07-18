@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/pages.module.css'
+import Krv from '../src/components/krv'
 
 const About = () => {
     return (
@@ -9,11 +9,9 @@ const About = () => {
         <meta name="about" content="About page" />
         <link rel="icon" href="/icon.png"  />
       </Head>
-      <div className={styles.writing_heading}>
-        <h1>
-          About
-        </h1>
-      <p className={styles.description}> 
+
+      <div class="flex flex-col justify-center items-center h-screen">
+      <p class="text-black"> 
       Some information on who we are and what we do coming soon!
               </p>
       </div>
