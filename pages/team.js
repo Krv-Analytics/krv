@@ -31,7 +31,7 @@ const Team = () => {
 
       <h2 class="text-black ml-40 mt-6 mr-40 text-2xl">Sidney Gathrid</h2>
       <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold">Bio </span> Solutions engineer currently working at an environmental technology company.  
+      <span class="font-bold">Bio </span> Solutions engineer pioneering distributed hydropower at an environmental technology startup.  
       </p>
       <p class="text-black ml-40 mt-2 mr-40 text-m"> 
       <span class="font-bold"> Github:</span> <Link href="https://github.com/sgathrid"> https://github.com/sgathrid</Link>
