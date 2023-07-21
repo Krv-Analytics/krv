@@ -8,8 +8,8 @@ const Krv = () => (
     <defs>
     </defs>
     <g transform="translate(65, -10)">
-    <path d="M5,110 C60,110 73,50 120,40 " stroke="black" fill="transparent" strokeWidth="4.2" stroke-linecap="round" />
-    <path d="M5,110 C60,80 20,50 120,40 " stroke="black" fill="transparent" strokeWidth="2.7" stroke-linecap="round" />
+    <path d="M5,110 C60,110 73,50 120,40 " stroke="black" fill="transparent" strokeWidth="4.2" strokeLinecap="round" />
+    <path d="M5,110 C60,80 20,50 120,40 " stroke="black" fill="transparent" strokeWidth="2.7" strokeLinecap="round" />
     
     
     <text fill="black" fontSize="50" fontFamily="Verdana" x="50" y="100">K</text>

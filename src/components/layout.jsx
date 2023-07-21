@@ -5,10 +5,10 @@ export default function Layout({ children}) {
   return (
     <>
       <Navbar/>
-      <div className="content-center">
+      <div className=" content-center">
       {children}
       </div>
-      <footer class=" text-center text-black">
+      <footer className=" text-center text-black">
         More Coming Soon! 
       </footer>
     </>
