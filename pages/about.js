@@ -15,9 +15,10 @@ const About = () => {
         <h1 class=" ml-40 text-black text-3xl font-bold mr-40">NEXT, NEXT LEVEL ANALYTICS</h1>
         
         <p class="ml-40 mt-8 text-black text-xl mr-40"> 
-        At <span class= "text-[#b91c1c] font-bold">KRV ANALYTICS</span>, we are pioneering graphical data analysis and 
-        model comparison, providing transparency in otherwise indistinguishable 
-        data. Through innovative methodology and a groundbreaking approach to data-driven analytics and machine learning, we offer the ability to view and understand multi-disciplinary data from a new and bold perspective.
+        At <span class= "text-[#b91c1c] font-bold">KRV ANALYTICS</span>, we can extract insights 
+        and meaning from even the most complex, unlabeled data sets.
+        Our innovative methods at the cutting edge of mathematics and machine learning offer the ability to understand
+        multi-disciplinary data from a new and bold perspective.
                 </p>
         </div>
         </main>
