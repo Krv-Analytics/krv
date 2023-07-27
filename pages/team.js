@@ -17,7 +17,7 @@ const Team = () => {
       {/* Jeremy  */}
       <h2 class="text-black ml-40 mt-6 mr-40 text-2xl">Jeremy Wayland</h2>
       <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold">Bio </span> PHd Student at Helmholtz Munich studying AI and Mathematics
+      <span class="font-bold">Bio </span> PhD Student at Helmholtz Munich studying AI and Mathematics.
       </p>
       <p class="text-black ml-40 mt-2 mr-40 text-m"> 
       <span class="font-bold"> Personal Website:</span> <Link href="https://jeremy-wayland.me/"> https://jeremy-wayland.me/</Link>
