@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
+import Card from '../src/components/card'
+import React from 'react';
 
 const Team = () => {
     return (
@@ -9,47 +11,45 @@ const Team = () => {
         <meta name="team" content="Meet the Team" />
         <link rel="icon" href="/icon.png"/>
       </Head>
-      <div class="flex flex-col justify-center items-start h-screen">
-      <h1 class="text-black ml-40 text-4xl font-bold mr-40">Founders</h1>
+  
 
+    <div class="min-h-screen flex flex-col items-center justify-center">  
+      <div class="flex flex-row items-center ">    
+      <div>
+        <Card name="Jeremy Wayland" 
+        image="/place_holder.png"
+        description="PhD Student at Helmholtz Munich."
+         githubUrl="https://github.com/jeremy-wayland"
+         linkedInUrl="https://www.linkedin.com/in/jeremy-wayland/"
+         websiteUrl="https://jeremy-wayland.me/"
+        facebookUrl="https://www.facebook.com/jeremy.wayland.92"
+        >
+    </Card>
+    </div>
+    <div class="ml-3 sm:ml-2 md:ml-3 lg:ml-4">
+    <Card name="Sidney Gathrid"
+        image="/place_holder.png"
+        description="Env technology solutions engineer."
+        githubUrl="https://github.com/sgathrid"
+        linkedInUrl="https://www.linkedin.com/in/sidney-gathrid-783a3b229/"
+       facebookUrl="https://www.facebook.com/sidney.gathrid.1"
+        >
+    </Card>
+    </div>
+    </div>
 
-
-      {/* Jeremy  */}
-      <h2 class="text-black ml-40 mt-6 mr-40 text-2xl">Jeremy Wayland</h2>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold">Bio </span> PhD Student at Helmholtz Munich studying AI and Mathematics.
-      </p>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold"> Personal Website:</span> <Link href="https://jeremy-wayland.me/"> https://jeremy-wayland.me/</Link>
-      </p>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold"> Github:</span>  <Link href="https://github.com/jeremy-wayland"> https://github.com/jeremy-wayland</Link>
-      </p>
-       {/* Sidney */}
-
-
-
-      <h2 class="text-black ml-40 mt-6 mr-40 text-2xl">Sidney Gathrid</h2>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold">Bio </span> Solutions engineer pioneering distributed hydropower at an environmental technology startup.  
-      </p>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold"> Github:</span> <Link href="https://github.com/sgathrid"> https://github.com/sgathrid</Link>
-      </p>
-
-      {/* Stu  */}
-      <h2 class="text-black ml-40 mt-6 mr-40 text-2xl">Stuart Wayland</h2>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold">Bio </span> Masters Student at University of California, Santa Cruz studying quantum algorithms. 
-      </p>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold"> Personal Website:</span> <Link href="https://stuartwayland.github.io/"> https://stuartwayland.github.io/</Link>
-      </p>
-      <p class="text-black ml-40 mt-2 mr-40 text-m"> 
-      <span class="font-bold"> Github:</span> <Link href="https://github.com/stuartwayland"> https://github.com/stuartwayland</Link>
-      </p>
-      </div>
-      </main>
+    <div class="mt-3 sm: mt-2 md:mt-3 lg:mt-4 mb-4 sm:mb-3 md:mb-4 lg:mb-5">
+    <Card name="Stuart Wayland"
+          image="/place_holder.png"
+          description="Masters Student at UC Santa Cruz."
+          githubUrl="https://github.com/stuartwayland"
+         linkedInUrl="https://www.linkedin.com/in/stuart-wayland-96b621253/"
+         websiteUrl="https://stuartwayland.github.io/"
+        facebookUrl="https://www.facebook.com/stuart.wayland.7/">
+    </Card>
+    </div>  
+</div>
+</main>
     );
   };
   
