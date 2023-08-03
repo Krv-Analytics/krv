@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 
-const Card = ({ name, image, githubUrl, linkedInUrl, websiteUrl, description, facebookUrl }) => {
+const Card = ({ name, image, githubUrl, linkedInUrl, websiteUrl, description}) => {
 
 if(websiteUrl)
   
@@ -16,9 +16,8 @@ if(websiteUrl)
               <div class="text-gray-500 mb-3 whitespace-nowrap">{description}</div>
               <div class="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
                 <a href={websiteUrl}class="hover:cursor-pointer hover:text-red-500"><i class="fa-solid fa-globe"></i></a>
-                <a href={linkedInUrl}class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-linkedin"></i></a>
-                <a href={facebookUrl} class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-facebook-square"></i></a>
                 <a href={githubUrl} class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-github-square"></i></a>
+                <a href={linkedInUrl}class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-linkedin"></i></a>
             </div>
             </div>
           </div></>
@@ -36,9 +35,8 @@ return (
         </div>
         <div class="text-gray-500 mb-3 whitespace-nowrap">{description}</div>
         <div class="flex flex-row gap-4 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
-          <a href={linkedInUrl}class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-linkedin"></i></a>
-          <a href={facebookUrl} class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-facebook-square"></i></a>
           <a href={githubUrl} class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-github-square"></i></a>
+          <a href={linkedInUrl}class="hover:cursor-pointer hover:text-red-500"><i class="fab fa-linkedin"></i></a>
       </div>
       </div>
     </div></>

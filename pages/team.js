@@ -23,7 +23,6 @@ const Team = () => {
         githubUrl="https://github.com/jeremy-wayland"
         linkedInUrl="https://www.linkedin.com/in/jeremy-wayland/"
         websiteUrl="https://jeremy-wayland.me/"
-        facebookUrl="https://www.facebook.com/jeremy.wayland.92"
       ></Card>
     </div>
     <div>
@@ -33,7 +32,6 @@ const Team = () => {
         description="Employed - Solutions Engineer."
         githubUrl="https://github.com/sgathrid"
         linkedInUrl="https://www.linkedin.com/in/sidney-gathrid-783a3b229/"
-        facebookUrl="https://www.facebook.com/sidney.gathrid.1"
       ></Card>
     </div>
   </div>
@@ -47,53 +45,11 @@ const Team = () => {
         githubUrl="https://github.com/stuartwayland"
         linkedInUrl="https://www.linkedin.com/in/stuart-wayland-96b621253/"
         websiteUrl="https://stuartwayland.github.io/"
-        facebookUrl="https://www.facebook.com/stuart.wayland.7/"
         imageClasses="mx-auto"
       ></Card>
     </div>
   </div>
 </div>
-
-
-  {/* <div class="flex flex-col justify-center items-center">
-  <div class="flex grid place-items-center">
-  <div class="grid grid-cols-2 gap-4">
-    <div>
-      <Card
-        name="Jeremy Wayland"
-        image="/place_holder.png"
-        description="PhD Student - Helmholtz Munich."
-        githubUrl="https://github.com/jeremy-wayland"
-        linkedInUrl="https://www.linkedin.com/in/jeremy-wayland/"
-        websiteUrl="https://jeremy-wayland.me/"
-        facebookUrl="https://www.facebook.com/jeremy.wayland.92"
-      ></Card>
-    </div>
-    <div>
-      <Card
-        name="Sidney Gathrid"
-        image="/place_holder.png"
-        description="Employed - Emrgy."
-        githubUrl="https://github.com/sgathrid"
-        linkedInUrl="https://www.linkedin.com/in/sidney-gathrid-783a3b229/"
-        facebookUrl="https://www.facebook.com/sidney.gathrid.1"
-      ></Card>
-    </div>
-    </div>
-    <div>
-      <Card
-        name="Stuart Wayland"
-        image="/place_holder.png"
-        description="Masters Student - UC Santa Cruz."
-        githubUrl="https://github.com/stuartwayland"
-        linkedInUrl="https://www.linkedin.com/in/stuart-wayland-96b621253/"
-        websiteUrl="https://stuartwayland.github.io/"
-        facebookUrl="https://www.facebook.com/stuart.wayland.7/"
-        imageClasses="mx-auto"
-      ></Card>
-    </div>
-    </div>
-    </div> */}
 
 </main>
     );
