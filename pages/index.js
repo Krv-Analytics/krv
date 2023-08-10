@@ -21,6 +21,9 @@ export default function Home() {
       </div>
       </main>
       </div>
+      <footer className=" text-center text-black">
+        More Coming Soon! 
+      </footer>
     </div>
   )
 }

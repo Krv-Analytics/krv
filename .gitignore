@@ -5,3 +5,8 @@
 
 # Dependencies
 node_modules/
+
+
+
+# Miscellaneous 
+public/.DS_Store
