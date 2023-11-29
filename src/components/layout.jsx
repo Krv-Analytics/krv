@@ -5,7 +5,7 @@ export default function Layout({ children}) {
   return (
     <>
       <Navbar/>
-      <div className=" content-center">
+      <div className="content-center">
       {children}
       </div>
     </>

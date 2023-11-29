@@ -13,7 +13,7 @@ const Krv = () => (
     
     
     <text fill="black" fontSize="50" fontFamily="Verdana" x="50" y="100">K</text>
-    {/* <text fill="black" fontSize="25" fontFamily="Verdana" x="85" y="100">r</text>
+    <text fill="black" fontSize="25" fontFamily="Verdana" x="85" y="100">r</text>
     <text fill="black" fontSize="25" fontFamily="Verdana" x="100" y="100">v</text>
 
     <text fill="black" fontSize="15" fontFamily="Verdana" x="70" y="115">A</text>
@@ -24,7 +24,7 @@ const Krv = () => (
     <text fill="black" fontSize="15" fontFamily="Verdana" x="115" y="115">t</text>
     <text fill="black" fontSize="15" fontFamily="Verdana" x="122" y="115">i</text>
     <text fill="black" fontSize="15" fontFamily="Verdana" x="127" y="115">c</text>
-    <text fill="black" fontSize="15" fontFamily="Verdana" x="136" y="115">s</text> */}
+    <text fill="black" fontSize="15" fontFamily="Verdana" x="136" y="115">s</text>
     </g>
     
     </svg>

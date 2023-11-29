@@ -5,6 +5,7 @@ import React from 'react';
 
 const Team = () => {
     return (
+      <div class="bg-graph bg-no-repeat bg-top bg-contain">
       <main>
       <Head>
         <title>Contact</title>
@@ -52,6 +53,7 @@ const Team = () => {
 </div>
 
 </main>
+</div>
     );
   };
   

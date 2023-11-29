@@ -22,21 +22,21 @@ export default function Navbar() {
   
   const isActive = router.asPath === ("/home")
   return (
-
-  <nav className="h-10 shadow-lg">
-    <div className="max-w-screen-xl flex items-center mx-auto h-10 justify-between">
-      <div className="h-30 w-30 lg:h-33">
+  
+  <nav className="h-35 shadow-lg sticky top-0 bg-gray-300 bg-graph">
+    <div className="max-w-screen-xl flex items-center mx-auto h-20 justify-between ">
+      <div className="h-35 w-35 lg:h-45">
         <Link href="/">
           <Logo color={getColorForNavItem("/", pathname)} />
         </Link>
       </div>
-        <div>
-        <NavigationLink key="about" href="/about" text="About" router={router} color={getColorForNavItem("/about", pathname)} />
-        </div>
-        <NavigationLink key="projects" href="/projects" text="Projects" router={router} color={getColorForNavItem("/projects", pathname)}/>
-      
-     
-        <div>
+        <div className="h-30 w-50 lg:h-45">
+          <NavigationLink key="about" href="/about" text="About" router={router} color={getColorForNavItem("/about", pathname)} />
+        </div >
+        <div className="h-30 w-50 lg:h-45">
+          <NavigationLink key="projects" href="/projects" text="Projects" router={router} color={getColorForNavItem("/projects", pathname)}/>
+        </div >
+        <div className="h-30 w-50 lg:h-45">
           <NavigationLink key="team" href="/team" text="Meet the Team" router={router} color={getColorForNavItem("/team", pathname)}/>
         </div>
     </div>
@@ -51,9 +51,9 @@ function NavigationLink({ href, text, router, color}) {
     const isActive = router.asPath === (href === "/home" ? "/" : href);
     var linkClasses = ""
     if (color === "black")
-      linkClasses = "text-lg text-black " 
+      linkClasses = "text-3xl text-black " 
     else
-      linkClasses = `text-lg text-[${color}] font-bold`; 
+      linkClasses = `text-3xl text-[${color}] font-bold`; 
     return (
       <Link className={linkClasses} href={href === "/home" ? "/" : href} passHref>   
         {text}

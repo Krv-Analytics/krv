@@ -7,7 +7,7 @@ if(websiteUrl)
   
   return (
     <><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" />
-        <div class="flex py-8 px-12 md:px-2 rounded-md border border-black"> 
+        <div class="flex py-8 px-12 md:px-2 rounded-md border border-black bg-gray-200"> 
             <img class="rounded-full border-4 border-gray-300 h-24 w-24 mx-auto" src={image} alt="" />
             <div class="flex flex-col text-center md:text-left">
               <div class="font-medium text-lg text-gray-800">{name}
@@ -27,7 +27,7 @@ else
 
 return (
   <><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" />
-  <div class="flex py-8 px-12 md:px-2 rounded-md border border-black"> 
+  <div class="flex py-8 px-12 md:px-2 rounded-md border border-black bg-gray-200"> 
       <img class="rounded-full border-4 border-gray-300 h-24 w-24 mx-auto" src={image} alt="" />
       <div class="flex flex-col text-center md:text-left">
         <div class="font-medium text-lg text-gray-800">{name}
